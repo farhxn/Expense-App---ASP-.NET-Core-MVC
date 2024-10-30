@@ -1,0 +1,87 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["isDashboard"] = true;
+    List<Object> menuItems = new List<Object>();
+
+    menuItems.Add(new
+    {
+        text = "General",
+        separator = true,
+    });
+
+    menuItems.Add(new
+    {
+        text = "Dashboard",
+        url="/",
+       iconCss = "fa-solid fa-box",
+    });
+    menuItems.Add(new
+    {
+        text = "Categories",
+        url="/Category",
+       iconCss = "fa-solid fa-folder-closed",
+    });
+
+    menuItems.Add(new
+    {
+       iconCss = "fa-solid fa-arrow-right-arrow-left",
+        text = "Transaction",
+        url="/Transaction"
+    });
+    menuItems.Add(new
+    {
+        text = "Extra",
+        separator = true,
+    });
+
+        menuItems.Add(new
+    {
+       iconCss = "fa-solid fa-chart-simple",
+        text = "Reports",
+        url="/Transaction"
+    });
+
+    menuItems.Add(new
+    {
+        iconCss = "fa-solid fa-gear",
+        text = "Setting",
+        url = "/Transaction"
+    });
+
+}
+
+
+<ejs-sidebar id="sidebar" width="290px" enableDock dockSize="100px" target=".dock-target" enableGestures="false">
+    <e-content-template>
+        <div class="logo-wrapper">
+            <div class="app-logo">
+                <img src="~/logo.png"/>
+              </div>
+              <div class="w-100"></div>
+              <i id="sidebar-troggler" class="fa-solid"></i>
+        </div>
+
+        <div class="profile-wrapper">
+            <img src="~/profile.jpg" class="profile-pic" />
+            <div class="titles d-flex flex-column ps-3">
+                <h6 class="mb-0">Wallet App</h6>
+                <span class="text-muted">M. Farhan Atid</span>
+            </div>
+        </div>
+        <div>
+        <ejs-menu orientation="Vertical" id="menu" items="menuItems" hamburgerMode></ejs-menu>
+   </div>
+    </e-content-template>
+   
+</ejs-sidebar>
+
+              <script>
+document.addEventListener('DOMContentLoaded',function(){
+    dockBar = document.getElementById('sidebar').ej2_instances[0];
+   document.getElementById('sidebar-troggler').onclick = function(){
+       dockBar.toggle();
+   };
+});
+              </script>

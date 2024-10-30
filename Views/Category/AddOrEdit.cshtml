@@ -1,0 +1,47 @@
+﻿@model Expense_App.Models.Category
+
+@{
+    ViewData["PageTitle"] = @Model.CategoryId == 0?"Create new category":"Edit "+Model.TitleWithIcon+" Category";
+    if(@Model.CategoryId == 0)
+    ViewData["Title"] = "Add Category";
+    else
+        ViewData["Title"] = "Edit" + @Model.TitleWithIcon+ " Category";
+}
+
+
+<div class="row">
+    <div class="col-7" >
+        <div class="widget p-5" style="background-color:#212b36;">
+            <form asp-action="AddorEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" value="@Model.CategoryId" name="CategoryId" />
+            <div class="mb-3 e-btn-group custom-rbt-group">
+                <input type="radio" id="radio1" name="Type" value="Expense" @(Model.Type == "Expense" ? "checked" : "") />
+                <label for="radio1" class="e-btn">Expenses</label>
+                <input type="radio" id="radio2" name="Type" value="Income" @(Model.Type == "Income" ? "checked" : "") />
+                <label for="radio2" class="e-btn">Income</label>
+            </div>
+
+            <div class="mb-3">
+                <ejs-textbox id="title" placeholder="Title"  ejs-for="@Model.Title"  floatLabelType="Auto"></ejs-textbox>
+                <span asp-validation-for="Title" class="text-danger fs-6"></span>
+            </div>
+            <div class="mb-3">
+                <ejs-textbox id="icon" placeholder="Icon" ejs-for="@Model.Icon" floatLabelType="Auto"></ejs-textbox>
+            </div>
+
+            <div class="form-group">
+                <ejs-button id="successbtn" cssClass="e-success" type="submit" content="Submit"></ejs-button>
+            </div>
+        </form>
+        </div>
+    </div>
+<div class="col-5">
+    <div class="widget h-100 d-flex justify-content-center align-items-center" >
+         <i class="fa-solid fa-shapes fa-2xl"></i>
+    </div>
+</div>
+</div>
+
+
+
