@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\.Net Project\\Expense App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,19 +63,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\.Net Project\\Expense App\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T17:19:44.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Transaction.cs",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
@@ -92,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -104,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AddOrEdit.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Transaction\\AddOrEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\Transaction\\AddOrEdit.cshtml",
@@ -116,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AddOrEdit.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Category\\AddOrEdit.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\AddOrEdit.cshtml",
@@ -128,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Transaction\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Transaction\\Index.cshtml",
@@ -140,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "_sidebar.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Shared\\_sidebar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_sidebar.cshtml",
@@ -152,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
@@ -164,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
@@ -176,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -188,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -200,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
