@@ -1,9 +1,12 @@
+using Expense_App.HelperMethods;
 using Expense_App.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddHttpClient<StockService>();
+builder.Services.AddTransient<IEmailSender,EmailSender>();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
@@ -31,5 +34,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Dashboard}/{action=Index}/{id?}"
     );
+
+
+
 
 app.Run();

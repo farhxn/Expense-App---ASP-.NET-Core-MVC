@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "D:\\.Net Project\\Expense App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:views\\transaction\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:views\\category\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Net Project\\Expense App\\HelperMethods\\EmailSender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HelperMethods\\EmailSender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|d:\\.net project\\expense app\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56FE07C6-1788-49BE-92E1-FE8D4AF21E48}|Expense App.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.Net Project\\Expense App\\HelperMethods\\SendingMails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HelperMethods\\SendingMails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,153 +42,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\.Net Project\\Expense App\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T17:19:44.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "Models\\Transaction.cs",
-              "ToolTip": "D:\\.Net Project\\Expense App\\Models\\Transaction.cs",
-              "RelativeToolTip": "Models\\Transaction.cs",
-              "ViewState": "AgIAABAAAAAQMzMzMzM2wBYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:37:32.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.Net Project\\Expense App\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswBwAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T18:22:57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddOrEdit.cshtml",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Transaction\\AddOrEdit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Transaction\\AddOrEdit.cshtml",
-              "ToolTip": "D:\\.Net Project\\Expense App\\Views\\Transaction\\AddOrEdit.cshtml",
-              "RelativeToolTip": "Views\\Transaction\\AddOrEdit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T18:19:31.771Z"
+              "WhenOpened": "2024-11-24T17:04:48.283Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AddOrEdit.cshtml",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Category\\AddOrEdit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\AddOrEdit.cshtml",
-              "ToolTip": "D:\\.Net Project\\Expense App\\Views\\Category\\AddOrEdit.cshtml",
-              "RelativeToolTip": "Views\\Category\\AddOrEdit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T18:19:16.161Z"
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\.Net Project\\Expense App\\HelperMethods\\EmailSender.cs",
+              "RelativeDocumentMoniker": "HelperMethods\\EmailSender.cs",
+              "ToolTip": "D:\\.Net Project\\Expense App\\HelperMethods\\EmailSender.cs",
+              "RelativeToolTip": "HelperMethods\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:44:06.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Transaction\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Transaction\\Index.cshtml",
-              "ToolTip": "D:\\.Net Project\\Expense App\\Views\\Transaction\\Index.cshtml",
-              "RelativeToolTip": "Views\\Transaction\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-17T13:40:44.064Z"
+              "DocumentIndex": 5,
+              "Title": "SendingMails.cs",
+              "DocumentMoniker": "D:\\.Net Project\\Expense App\\HelperMethods\\SendingMails.cs",
+              "RelativeDocumentMoniker": "HelperMethods\\SendingMails.cs",
+              "ToolTip": "D:\\.Net Project\\Expense App\\HelperMethods\\SendingMails.cs",
+              "RelativeToolTip": "HelperMethods\\SendingMails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T16:41:02.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "_sidebar.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Shared\\_sidebar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_sidebar.cshtml",
               "ToolTip": "D:\\.Net Project\\Expense App\\Views\\Shared\\_sidebar.cshtml",
               "RelativeToolTip": "Views\\Shared\\_sidebar.cshtml",
-              "ViewState": "AQIAACgAAADAMzMzM7MiwDgAAAAYAAAA",
+              "ViewState": "AgIAABoAAAAAKTMzMzMLwDAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T09:20:34.943Z"
+              "WhenOpened": "2024-11-24T16:30:09.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
               "ToolTip": "D:\\.Net Project\\Expense App\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAAFAAAAAkAAAA",
+              "ViewState": "AgIAAGsAAAAAAAAAAABQPX4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T09:18:42.309Z"
+              "WhenOpened": "2024-11-09T19:04:24.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\.Net Project\\Expense App\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
               "ToolTip": "D:\\.Net Project\\Expense App\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAEEAAAAANDMzMzMbwFMAAAAMAAAA",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAGoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T09:13:54.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\.Net Project\\Expense App\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwEAAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T11:30:32.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\.Net Project\\Expense App\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAMgAAAAAAAAAAAASwNsAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-11T12:18:27.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\.Net Project\\Expense App\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "D:\\.Net Project\\Expense App\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAEAAADAMjMzMzMrwBIAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T07:46:27.342Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-11-04T16:28:53.385Z",
+              "EditorCaption": ""
             }
           ]
         }

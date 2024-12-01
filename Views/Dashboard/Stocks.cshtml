@@ -1,0 +1,45 @@
+﻿@model dynamic
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Stock Predictions";
+}
+
+<h2>Stock Predictions - Bar Chart</h2>
+
+<div id="stockBarChart"></div>
+
+<script>
+    // Parse stock data
+    var stockData = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model));
+
+    if (stockData && stockData.data) {
+        // Prepare data for bar chart
+        var chartData = stockData.data.map(stock => {
+            return {
+                x: stock.symbol, // Stock symbol as category
+                y: parseFloat(stock.close) // Closing price as value
+            };
+        });
+
+        // Initialize Bar Chart
+        var chart = new ej.charts.Chart({
+            primaryXAxis: { title: 'Stock Symbol', valueType: 'Category' },
+            primaryYAxis: { title: 'Price', labelFormat: '${value}' },
+            title: 'Stock Prices - Bar Chart',
+            series: [{
+                dataSource: chartData,
+                xName: 'x',
+                yName: 'y',
+                type: 'Bar',
+                marker: { dataLabel: { visible: true } }
+            }],
+            tooltip: { enable: true }
+        });
+
+        // Render chart
+        chart.appendTo('#stockBarChart');
+    } else {
+        console.error("Invalid stock data:", stockData);
+        document.getElementById("stockBarChart").innerHTML = "<p>Error: Unable to render chart. Invalid data format.</p>";
+    }
+</script>

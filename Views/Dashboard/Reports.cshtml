@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["PageTitle"] = "Reports";
+    ViewData["Title"] = "Reports";
+}
+
+<div class="row">
+    <div class="col-12" style="background-color:#212b36; padding:25px; border-radius: 20px; margin-bottom:10px;" >
+        <div class="row align-items-center mb-4">
+            <div class="col-7">
+                <h4>My Expenses</h4>
+                <small class="text-muted">Overview of all expenses recorded in the system, categorized by date, type, and amount.</small>
+            </div>
+            <div class="col-5 text-end" >
+                <a class="btn btn-success" target="_blank" href="/Dashboard/DownloadReport">
+                    Preview/Download
+                </a>
+            </div>
+        </div>
+        <hr />
+
+        <!-- Report 2 -->
+        <div class="row align-items-center mb-4">
+            <div class="col-7">
+                <h4>Monthly Summary</h4>
+                <small class="text-muted">A monthly summary of all expenses, providing insights into spending patterns over time.</small>
+            </div>
+            <div class="col-5 text-end">
+                <a class="btn btn-success" target="_blank" href="/Dashboard/DownloadReport">
+                    Preview/Download
+                </a>
+            </div>
+        </div>
+        <hr />
+
+        <!-- Report 3 -->
+        <div class="row align-items-center mb-4">
+            <div class="col-7">
+                <h4>Yearly Overview</h4>
+                <small class="text-muted">Annual report covering total expenses across all months, useful for budget planning and analysis.</small>
+            </div>
+            <div class="col-5 text-end">
+                <a class="btn btn-success" target="_blank" href="/Dashboard/DownloadReport">
+                    Preview/Download
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
